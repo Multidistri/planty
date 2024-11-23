@@ -1,0 +1,20 @@
+/*
+Theme Name: Planty
+Theme URI: localhost
+Author: Admin
+Author URI: Admin
+Description: Thème Planty basé sur le thème Twenty Twenty-Three
+Requires at least: 6.1
+Tested up to: 6.6
+Requires PHP: 5.6
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Template: twentytwentythree
+Tags: fraise, pamplemousse, framboise, citron, 
+*/
+
+.wp-image-55 {
+margin-left: 150px;  
+
+}

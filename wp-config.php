@@ -37,6 +37,9 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+/** Eric - Ajout pour supprimer demande de mot de passe */
+define('FS_METHOD', 'direct');
+
 /**#@+
  * Authentication unique keys and salts.
  *
@@ -48,14 +51,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '37ODn]XF3{55&MpULt{qIgmm[k/YVANr|G^]v#5peMng!^P,#}Y_.R#EaO4EcO=V' );
-define( 'SECURE_AUTH_KEY',  'nwmc94zD-})+T{-u.tMV;^q[U<(#n{<98_|5Xh0^9u-o}o2wXlX*v!RvE{rzhKdY' );
-define( 'LOGGED_IN_KEY',    'i,w!(M$W%dHV?7Zhnp`<>giAxl,xJO^1aL{:`PZ-cJh[*2czIA8PH_t/c/`%rLS^' );
-define( 'NONCE_KEY',        'EWDzQu+Y.t3l/XU[AWfnQ7Ayj8?^3%7o%(HA3sg933{H:Al_ll<m>2,uQUUx+=0d' );
-define( 'AUTH_SALT',        '#_&0#^EU6f`&KmKwqPSd[_0h18!dpc$ZaYBp] hk}f(]!S>NEH].hJFDF*2n<(*w' );
-define( 'SECURE_AUTH_SALT', 'c!VIzM)qLm7qbYbrLrDo/1bTKrlPH3^;:bA#o{k$+cCT5VvEJ6S1@=R;>n4(qvr1' );
-define( 'LOGGED_IN_SALT',   'i^_?iEWRpek*6X{ZFXI3#BZz72kl[TpF=%C@_<Q>#2i1x9 1Agzoc$^mHHUz:q$Q' );
-define( 'NONCE_SALT',       'n?ig/Q^5SB&7+*Hak12C1&lR/?z8Qj-2i[(6=l`PS6xj/VYHcUSmPj!z5i`70Ti*' );
+define( 'AUTH_KEY',         'O3Yj{NK`zmj[;<]tKtYP?&>zgxvz5=DB[snJ-U$[)P7(QE,M><Rb?>;Vh|?|@`U/' );
+define( 'SECURE_AUTH_KEY',  '_S^v:CVinCK_5m{K{WKYbr=C=afF>J}3&_-/$S~DLbF>uP)xmGc8OB{zsQ|Nj{ G' );
+define( 'LOGGED_IN_KEY',    'fmyGO;4SiOjaJKb$!B3{]O6C`Zg,pX?&X8;s-RG5oj^6d!P?(iH#^ko +k~Ta2gs' );
+define( 'NONCE_KEY',        'V}+e,64 ey<0`6Z5UMm|)eVUJ0rJ%]Gl<eO#%722x@&gx#~%Mp^Q|S ;@}v{U}[o' );
+define( 'AUTH_SALT',        'UsB).rC|#K70D)QlY^-|=3>)Le%A<FW%!8rGmwr|ZE,R#CU?XN~e|dAtC&ze?{j ' );
+define( 'SECURE_AUTH_SALT', 'R|J_vXifdfR_a E!m$p13If%>9^@%`DS;byliZixBr5(mq7uUxflShj|}-E#f}:2' );
+define( 'LOGGED_IN_SALT',   '|9P4J7T|19&>SVSMi{:N$XHc_vpkAu);.m-US1A1A5@%0r_7/Vs_*dzJRHs)Cv4:' );
+define( 'NONCE_SALT',       '!Yh.Rn%=r-Q:sGIhLm#IZl3PMle|=XP[XlXM|nJceK<Zise{0W#12D6YYI,|M7d!' );
 
 /**#@-*/
 
